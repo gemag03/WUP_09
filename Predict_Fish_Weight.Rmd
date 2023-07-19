@@ -128,6 +128,17 @@ The residual standard error is 70.86. The adjusted R squared is 0.9794. The p va
 
 ### Best Two regressor model
 
+
+```{r}
+Piketwo <- lm(Weight~Length1+Length3, data = Pike)
+summary.lm(Piketwo)
+```
+
+
+
+The residual standard error is 92.56. The adjusted R squared is 0.9649. The p value is 2.572e-11.This summarizes our best two regression models.
+
+
 ## Roach
 
 ### Best Models
