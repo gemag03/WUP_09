@@ -114,6 +114,18 @@ L1 and L3 are the two best regression models. Best regression model is everythin
 ### Best Models
 
 
+
+```{r}
+Pikebest <- lm(Weight~., data = Pike)
+summary.lm(Pikebest)
+```
+
+
+
+The residual standard error is 70.86. The adjusted R squared is 0.9794. The p valuse is 8.679e-10.
+
+
+
 ### Best Two regressor model
 
 ## Roach
